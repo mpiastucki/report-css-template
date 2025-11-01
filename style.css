@@ -1,0 +1,58 @@
+body {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    background: #FFFFFF;
+}
+
+p, blockquote {
+    color: #1E293B;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+code {
+  background-color: #F3F4F6; /* soft gray */
+  color: #1E293B;           /* same as body text */
+  font-family: 'Courier New', monospace;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre code {
+  display: block;
+  background-color: #F1F5FB; /* pale blue-gray background */
+  color: #1E293B;           /* readable dark slate */
+  font-family: 'Fira Code', 'Courier New', monospace;
+  padding: 0.5em;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+blockquote {
+    border-left: 3px solid #0D6EFD;
+    background: #F1F5FB;
+    padding: 1.2em 20px 1.2em 20px;
+    color: #1E3A8A;
+}
+
+h1, h2, h3, h4 {
+    color: #0D6EFD;
+}
+
+main {
+    max-width: min(70ch, 100% - 4rem);
+    margin-inline: auto;
+}

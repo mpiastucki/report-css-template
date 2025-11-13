@@ -2,6 +2,7 @@ body {
     line-height: 1.5;
     font-size: 1.25rem;
     background: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p, blockquote {
@@ -24,8 +25,8 @@ img, video {
 }
 
 code {
-  background-color: #F3F4F6; /* soft gray */
-  color: #1E293B;           /* same as body text */
+  background-color: #F3F4F6;
+  color: #1E293B; 
   font-family: 'Courier New', monospace;
   padding: 0.15em 0.4em;
   border-radius: 4px;
@@ -33,8 +34,8 @@ code {
 
 pre code {
   display: block;
-  background-color: #F1F5FB; /* pale blue-gray background */
-  color: #1E293B;           /* readable dark slate */
+  background-color: #F1F5FB; 
+  color: #1E293B; 
   font-family: 'Fira Code', 'Courier New', monospace;
   padding: 0.5em;
   border-radius: 6px;
